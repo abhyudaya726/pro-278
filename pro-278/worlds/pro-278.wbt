@@ -1,0 +1,79 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.19364466464781824 0.8795474306886435 0.43462404561004186 0.9377812775722895
+  position -4.9555355634390645 -2.4025962747889524 6.027114892255141
+}
+TexturedBackground {
+  texture "dusk"
+}
+TexturedBackgroundLight {
+  texture "dusk"
+}
+RectangleArena {
+  translation 0 0 -0.07
+  floorSize 5 5
+  floorTileSize 2.5 2.5
+  wallThickness 0.05
+  wallHeight 0.5
+}
+E-puck {
+  hidden position_0_0 1858.1564294046584
+  hidden position_0_1 2048.512538935054
+  hidden linearVelocity_0 -0.04821434078998101 -0.028808051570092034 4.4424699380222816e-08
+  hidden angularVelocity_0 0.0009688989467398343 -0.001627544910105675 0.08789035291235063
+  hidden rotation_1 0 -1 0 1.6664215204991863
+  hidden linearVelocity_1 -0.046261174214381 -0.027640774813295438 3.378340992799449e-09
+  hidden angularVelocity_1 1.376532462664234 -2.303743449674269 0.08963085530038299
+  hidden rotation_2 0 1 0 0.19412879450898954
+  hidden linearVelocity_2 -0.05018411821114917 -0.029985005699918063 -3.186696717922921e-09
+  hidden angularVelocity_2 1.5046960292823743 -2.5184197226905525 0.0899036729701527
+  translation -0.7356388268059274 -0.04959852572149548 -0.07006432094743856
+  rotation -1.2205558252931208e-05 -6.495782425060433e-05 -0.9999999978157526 2.601439006440542
+}
+DEF Box_1 Transform {
+  translation 0 0 -0.02
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+}
+DEF Box_2 Transform {
+  translation 1.4 0.75 -0.02
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+}
+DEF Box_3 Transform {
+  translation -1.28 -1.05 -0.02
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+}
